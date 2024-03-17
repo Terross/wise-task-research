@@ -19,6 +19,7 @@ public class GraphGrpcService {
                 .setEdgeCount(edgeCount)
                 .setVertexCount(vertexCount)
                 .setIsDirect(isDirect)
+                .setIsSaved(true)
                 .build();
 
         return graphStubHolder.get().generateRandomGraph(request).getGraph();
