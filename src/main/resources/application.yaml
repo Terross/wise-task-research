@@ -1,0 +1,9 @@
+grpc:
+  service:
+    graph:
+      port: 6565
+      host: "localhost"
+  port: 6566
+
+server:
+  port: 8090
